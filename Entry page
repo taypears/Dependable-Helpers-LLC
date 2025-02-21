@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dependable Helpers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e8491d;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dependable Helpers</h1>
+        <p>Providing Home Health Care Services</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Dependable Helpers is dedicated to providing high-quality home health care services to our clients. Our team of experienced professionals ensures that every individual receives personalized care tailored to their specific needs.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Personal Care Assistance</li>
+                <li>Medication Management</li>
+                <li>Physical Therapy</li>
+                <li>Meal Preparation</li>
+                <li>Companionship</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need to schedule a consultation? Get in touch with us!</p>
+            <p>Email: info@dependablehelpers.com</p>
+            <p>Phone: (555) 123-4567</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dependable Helpers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
